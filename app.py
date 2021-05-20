@@ -26,7 +26,7 @@ authenticate.set_access_token(accessToken, accessTokenSecret)
 # Creating the API object while passing in auth information
 api = tweepy.API(authenticate, wait_on_rate_limit = True)
 
-st.set_option('deprecation.showPyplotGlobalUse', False)
+# st.set_option('deprecation.showPyplotGlobalUse', False)
 
 
 
